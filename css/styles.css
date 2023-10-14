@@ -121,7 +121,7 @@ address {
 .menu-adress {
   display: flex;
   gap: 40px;
-  margin-right: 0;
+  padding: 24px 0 24px;
 }
 
 .link-contact {
@@ -204,13 +204,11 @@ address {
 
 .list-team {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   text-align: center;
 }
 
 .team-conteiner {
-  padding-top: 120px;
-  padding-bottom: 120px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -223,7 +221,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .text-title-three {
@@ -247,6 +245,7 @@ address {
 
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .list-team-item {
