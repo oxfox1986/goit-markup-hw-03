@@ -67,8 +67,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .page-nav {
@@ -85,6 +83,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .logo > span {
