@@ -103,8 +103,6 @@ body {
 
 .menu-item {
   margin-right: 0;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .menu-link {
@@ -113,6 +111,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 address {
