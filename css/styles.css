@@ -97,7 +97,7 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   align-items: center;
   margin-right: 0;
 }
@@ -120,7 +120,7 @@ address {
 
 .menu-adress {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   margin-right: 0;
 }
 
