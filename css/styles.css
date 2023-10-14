@@ -95,12 +95,15 @@ body {
   color: #404bbf;
 }
 
+.page-adress{
+  padding: 24px 0;
+}
+
 .menu {
   display: flex;
   gap: 40px;
   align-items: center;
   margin-right: 0;
-  padding: 24px 0;
 }
 
 .menu-item {
