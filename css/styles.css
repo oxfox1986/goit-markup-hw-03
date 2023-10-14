@@ -83,8 +83,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .logo > span {
@@ -105,7 +103,8 @@ body {
 
 .menu-item {
   margin-right: 0;
-  
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .menu-link {
