@@ -190,7 +190,7 @@ address {
 
 .list-strenghts {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .second-section-container {
@@ -205,7 +205,6 @@ address {
 .list-team {
   display: flex;
   gap: 24px;
-  text-align: center;
 }
 
 .team-conteiner {
@@ -230,9 +229,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
-
+  text-align: center;
 }
 
 .text-p {
@@ -241,6 +238,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
+  text-align: center;
+}
+.teamlead{
+  padding: 32px 0;
 }
 
 .team-section {
@@ -251,6 +252,8 @@ address {
 .list-team-item {
   background-color: #ffffff;
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px; 
+
 }
 
 .portfolio-container {
