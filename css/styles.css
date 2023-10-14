@@ -99,12 +99,13 @@ body {
   gap: 40px;
   align-items: center;
   margin-right: 0;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .menu-item {
   margin-right: 0;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  
 }
 
 .menu-link {
