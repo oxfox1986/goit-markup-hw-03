@@ -95,10 +95,6 @@ body {
   color: #404bbf;
 }
 
-.page-adress{
-  padding: 24px 0;
-}
-
 .menu {
   display: flex;
   gap: 40px;
@@ -108,6 +104,7 @@ body {
 
 .menu-item {
   margin-right: 0;
+  padding: 24px, 0;
 }
 
 .menu-link {
@@ -125,7 +122,6 @@ address {
 .menu-adress {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .link-contact {
