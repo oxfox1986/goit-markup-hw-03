@@ -60,8 +60,8 @@ body {
 }
 
 .header-page {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-page-container {
@@ -72,7 +72,6 @@ body {
 
 .page-nav {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 
@@ -84,6 +83,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo > span {
@@ -99,6 +99,7 @@ body {
   display: flex;
   column-gap: 40px;
   align-items: center;
+  margin-right: 0;
 }
 
 .menu-link {
@@ -116,6 +117,7 @@ address {
 .menu-adress {
   display: flex;
   column-gap: 40px;
+  margin-right: 0;
 }
 
 .link-contact {
