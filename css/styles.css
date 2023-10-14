@@ -6,14 +6,76 @@
   list-style-type: none;
 }
 
+.button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.visualli-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-.button {
-  cursor: pointer;
+
+.header-page {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
+.header-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  column-gap: 76px;
+  align-items: center;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -33,6 +95,12 @@ body {
   color: #404bbf;
 }
 
+.menu {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
 .menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -43,6 +111,11 @@ body {
 
 address {
   font-style: normal;
+}
+
+.menu-adress {
+  display: flex;
+  column-gap: 40px;
 }
 
 .link-contact {
@@ -62,6 +135,9 @@ address {
 
 .first-section {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 
 .text-title-one {
@@ -70,6 +146,10 @@ address {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -79,11 +159,47 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .button:hover,
 .button:focus {
   background-color: #404bbf;
+}
+
+.second-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list-strenghts {
+  display: flex;
+  column-gap: 24px;
+}
+
+.second-section-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list-strenghts-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.list-team {
+  display: flex;
+  column-gap: 24px;
+  text-align: center;
+}
+
+.team-conteiner {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .text-title-two {
@@ -94,6 +210,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .text-title-three {
@@ -102,6 +219,9 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+
 }
 
 .text-p {
@@ -109,6 +229,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 .team-section {
@@ -117,6 +238,47 @@ address {
 
 .list-team-item {
   background-color: #ffffff;
+  width: calc((100% - 24px * 3) / 4);
+}
+
+.portfolio-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list-portfolio-item {
+  border: 1px solid #e7e9fc;
+  background: #fff;
+  width: calc((100% - 24px * 2) / 3);
+}
+
+.text-title-portfolio{
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.text-pportfolio{
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .page-footer {
@@ -133,11 +295,24 @@ address {
   text-transform: uppercase;
 }
 
-.log-foot {
+.log-foot{
   color: #f4f4fd;
 }
 
-.fut {
+.text-fut{
   color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  width: 264px;
+  padding-top: 17.5px;
+}
+
+.foot-container{
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
