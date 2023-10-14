@@ -102,6 +102,10 @@ body {
   margin-right: 0;
 }
 
+.menu-item{
+  margin-right: 0;
+}
+
 .menu-link {
   color: #2e2f42;
   font-size: 16px;
